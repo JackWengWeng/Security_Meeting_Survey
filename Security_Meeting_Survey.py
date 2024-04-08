@@ -4,7 +4,7 @@ import sqlite3
 import requests
 import datetime
 
-db_path = "Security_Meeting_Survey.db"
+db_path = "Security_Meeting_Survey/Security_Meeting_Survey.db"
 conn = sqlite3.connect(db_path)
 
 def writetoSQLite(fill_date, department, filler_name, meeting_status, additional_info):
