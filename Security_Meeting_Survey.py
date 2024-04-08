@@ -32,7 +32,7 @@ st.title('保安防護聯繫會議辦理情形填報表單')
 
 fill_date = datetime.date.today()
 
-departments = ["A單位", "B單位", "C單位"]
+departments = ["協和發電廠", "龍崎E/S", "通霄發電廠","台中發電廠","林口發電廠","大潭發電廠","頂湖E/S","霧社水庫(萬大發電廠)","明潭發電廠","大觀發電廠","日月潭水庫","中寮開閉所","高雄中央調度中心(高屏供電區處)","大林發電廠","竹園E/S","峨眉E/S","龍潭E/S","南科E/S"]
 department = st.selectbox("填表單位", departments)
 
 filler_name = st.text_input("填表人")
